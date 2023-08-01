@@ -1,0 +1,20 @@
+[package]
+name = "linear_algebra_modules"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ark-ff = "0.3.0"
+ark-poly = "0.3.0"
+ark-ec = "0.3.0"
+ark-std = "0.3.0"
+ark-bls12-381 = "0.3.0"
+ark-test-curves = "0.3.0"
+rand = "0.8.5"
+ark-crypto-primitives = "0.3.0"
+num-bigint = "0.4.3"
+rand_chacha = { version = "0.3.0", default-features = false }
+field-matrix-utils = "0.1.1"
+rayon = "1.7.0"
